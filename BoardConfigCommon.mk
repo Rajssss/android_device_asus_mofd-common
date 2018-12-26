@@ -77,6 +77,7 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.moorefield
 BUILD_ARM_FOR_X86 := true
 
 # IMG graphics
+TARGET_USES_HWC2 := true
 BOARD_GFX_REV := RGX6400
 ENABLE_IMG_GRAPHICS := true
 ENABLE_MRFL_GRAPHICS := true
